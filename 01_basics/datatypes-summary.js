@@ -30,3 +30,31 @@ console.log("Hello Sir");
 }
 
 console.log(typeof bigNumber);
+
+                 // MEMORY-
+
+
+//stck (primative),Heap(non-primative)
+//stack 
+
+let myname="MURARI KUMAR JHA";
+
+let anothername=myname;
+anothername="Subhash jha";
+console.log(myname);//MURARI KUMAR JHA
+console.log(anothername);//Subhash jha
+
+
+//heap
+
+let userone={
+    email:"jhamurari0987@gmail.com",
+    upi: "9262966487@ibl"
+}
+
+let user2=userone;
+
+user2.email="Subhashjha@gmail.com";
+
+console.log(userone.email);//Subhashjha@gmail.com
+console.log(user2.email);//Subhashjha@gmail.com
