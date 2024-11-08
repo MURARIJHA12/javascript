@@ -32,6 +32,7 @@ const obj2 = {3: "c", 4: "d"};
 const obj3={...obj1,...obj2}
 console.log(obj3);//output :{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 */
+/*
 const users=[
     {
        id :1,
@@ -52,3 +53,17 @@ console.log(Object.entries(users));
 // //output:[ '0', { id: 1, email: 'jhamurari0987@gmail.com' } ],
 //   [ '1', { id: 2, email: 'jhasubhash0987@gmail.com' } ],
 //   [ '2', { id: 1, email: 'jharakesh0987@gmail.com' } ]
+
+*/
+
+//de-structure
+
+const course={
+    coursename:"Js in hindi",
+    Price:2000,
+    courseInstruction:"It Self"
+}
+//console.log(course.courseInstruction);
+
+const{courseInstruction}=course;
+console.log(courseInstruction);
