@@ -19,9 +19,9 @@ const newNums=myNums.filter((num)=>{
 console.log(newNums);//Output:[]
 */
 
-
+/*
 const newNums=myNums.filter((num)=>{
   return  num>4
 })
 console.log(newNums);//Output:[ 5, 6, 7, 8, 9, 10 ]
-
+*/
