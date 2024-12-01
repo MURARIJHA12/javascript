@@ -1,0 +1,23 @@
+const classinfo={
+    manjeet:{
+        Grade:'A+',
+        City:"Delhi"
+    },
+    Rupem:{
+        Grade:"A",
+        City:"Darbhanga"
+    },
+    subhash:{
+        grade:"B+",
+        City:"Faridabadh"
+    },
+    Rakesh:{
+        Grade:"B",
+        City:"Patna"
+    },
+    Murari:{
+        Grade:"c",
+        City:"Jaideopatti"
+    }
+};
+console.log(classinfo);
