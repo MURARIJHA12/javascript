@@ -34,7 +34,7 @@ console.log(newarr);
 //slice
 console.log("A",myarr);
 
-const myn1=myarr.slice(1,3)
+const myn1=myarr.slice(1,3);
 
 console.log(myn1);
 
